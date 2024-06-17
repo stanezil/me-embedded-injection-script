@@ -30,7 +30,7 @@ chmod +x aquactl
 
 echo -e "${YELLOW}Downloading MicroEnforcer...${NC}"
 # Download MicroEnforcer
-wget --user "$AQUA_USER" --password "$AQUA_PASSWORD" https://download.aquasec.com/micro-enforcer/2022.4.460/x86/microenforcer
+wget --user "$AQUA_USER" --password "$AQUA_PASSWORD" https://download.aquasec.com/micro-enforcer/2022.4.517/x86/microenforcer
 chmod +x microenforcer
 
 echo -e "${YELLOW}Executing aquactl to inject...${NC}"
